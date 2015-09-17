@@ -1,0 +1,9 @@
+jenkins:
+  name: evise-jenkins
+  image: evise/jenkins:latest
+  ports:
+    - 80:80
+  volumes:
+    - data/:/var/lib/jenkins
+    - logs/:/var/log/jenkins
+

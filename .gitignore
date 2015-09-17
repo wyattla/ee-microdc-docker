@@ -1,0 +1,4 @@
+*swp
+.root.tar.gz
+composer/jenkins/data
+composer/jenkins/logs
