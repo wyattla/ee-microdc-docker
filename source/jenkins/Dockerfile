@@ -56,7 +56,8 @@ RUN install_jenkins_plugins.sh \
       plain-credentials=latest \
       github-api=latest \
       github=latest \
-      github-oauth=latest 
+      github-oauth=latest \
+      extensible-choice-parameter=latest
 
 # Pin credentials plugin so the script installation
 # is not overwritten by the internal jenkins installation
